@@ -1,12 +1,65 @@
-img {
+.logo img {
     height: 92px;
     width: 272px;
     padding-top: 109px;
+}   
+button {
+    background-color: transparent;
+    border: none;
+}
+#glass{
+    height: 44px;
+    width: 33px;
+    display: inline;
+}
+#glass img {
+    height: 20px;
+    width: 20px;
+    display: inline;
+    padding-top: 9px;
+}
+#keyboard{
+    height: 44px;
+    width: 40px;
+    padding-top: 7px;
+    display: inline;
+}
+#kybrd img{
+    height: 24px;
+    width: 24px;
+    padding-top: 7px;
+    display: inline;
+}
+#microphone {
+    height: 44px;
+    width: 40px;
+    display: inline;
+}
+#mick {
+    height: 24px;
+    width: 24px;
 }
 main {
     text-align: center;
 }
-#searchbar {
+.barsrch input {
     height: 34px;
     width: 447px;
+    background-color: transparent;
+    border: none;
+    margin-top: -37px;
+}
+div .barsrch {
+    width: 560px;
+    height: 39px;
+    border: solid black;
+    margin: 0 auto;
+    border-radius: 34px;
+}
+
+div .buttons {
+    padding-top: 30px;
+}
+#lucky {
+    margin-left: 10px;
 }
