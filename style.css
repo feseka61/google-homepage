@@ -1,3 +1,38 @@
+.apps {
+    height: 20px;
+    width: 19px;
+}
+li {
+    display: inline;
+    float: right;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navb {
+    margin-right: 10px;,
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+div.logo {
+    display: block;
+}
 .logo img {
     height: 92px;
     width: 272px;
@@ -35,9 +70,11 @@ button {
     width: 40px;
     display: inline;
 }
-#mick {
+#mick img{
     height: 24px;
     width: 24px;
+    padding-top: 7px;
+    display: inline;
 }
 main {
     text-align: center;
@@ -49,14 +86,13 @@ main {
     border: none;
     margin-top: -37px;
 }
-div .barsrch {
+div.barsrch {
     width: 560px;
     height: 39px;
     border: solid black;
     margin: 0 auto;
     border-radius: 34px;
 }
-
 div .buttons {
     padding-top: 30px;
 }
